@@ -1,4 +1,4 @@
-[gd_scene load_steps=89 format=3 uid="uid://bh2ljxalr8v6r"]
+[gd_scene load_steps=90 format=3 uid="uid://bh2ljxalr8v6r"]
 
 [ext_resource type="Theme" uid="uid://dq3nkyvt0p0ak" path="res://Assets/main_theme.tres" id="1_4g8ax"]
 [ext_resource type="Script" path="res://Scripts/main.gd" id="2_j7whi"]
@@ -241,6 +241,13 @@ EndingLetter = ""
 Vowel = true
 Sound = ExtResource("27_13dkr")
 
+[sub_resource type="Resource" id="Resource_0ko5n"]
+script = ExtResource("5_ify1m")
+Lower = "'"
+Upper = "'"
+EndingLetter = ""
+Vowel = false
+
 [sub_resource type="Resource" id="Resource_bd0cg"]
 script = ExtResource("5_ify1m")
 Lower = ";"
@@ -384,7 +391,7 @@ mouse_filter = 2
 theme = ExtResource("1_4g8ax")
 theme_override_styles/panel = SubResource("StyleBoxFlat_fnnxu")
 script = ExtResource("2_j7whi")
-Characters = Array[ExtResource("3_l6agy")]([SubResource("Resource_k11e0"), SubResource("Resource_myoff"), SubResource("Resource_oh5f4"), SubResource("Resource_ptt7x"), SubResource("Resource_ttqu5"), SubResource("Resource_ibkec"), SubResource("Resource_4hemv"), SubResource("Resource_754ki"), SubResource("Resource_8anjv"), SubResource("Resource_fhcsk"), SubResource("Resource_5cfk6"), SubResource("Resource_ffmf6"), SubResource("Resource_wm672"), SubResource("Resource_wgeep"), SubResource("Resource_vb27o"), SubResource("Resource_3d2xu"), SubResource("Resource_5gn0u"), SubResource("Resource_x8466"), SubResource("Resource_5aq57"), SubResource("Resource_m1n36"), SubResource("Resource_v1vfm"), SubResource("Resource_m0ugq"), SubResource("Resource_mcj1f"), SubResource("Resource_4bgu2"), SubResource("Resource_bd0cg"), SubResource("Resource_ad2ln"), SubResource("Resource_pwlx7"), SubResource("Resource_gqs4n"), SubResource("Resource_vt0p3"), SubResource("Resource_u4yd1"), SubResource("Resource_ylxur"), SubResource("Resource_5wr2k"), SubResource("Resource_d73n3"), SubResource("Resource_gp3a2"), SubResource("Resource_4jnuy"), SubResource("Resource_f8p1x"), SubResource("Resource_24d6y"), SubResource("Resource_b67vd"), SubResource("Resource_xr602"), SubResource("Resource_budvm")])
+Characters = Array[ExtResource("3_l6agy")]([SubResource("Resource_k11e0"), SubResource("Resource_myoff"), SubResource("Resource_oh5f4"), SubResource("Resource_ptt7x"), SubResource("Resource_ttqu5"), SubResource("Resource_ibkec"), SubResource("Resource_4hemv"), SubResource("Resource_754ki"), SubResource("Resource_8anjv"), SubResource("Resource_fhcsk"), SubResource("Resource_5cfk6"), SubResource("Resource_ffmf6"), SubResource("Resource_wm672"), SubResource("Resource_wgeep"), SubResource("Resource_vb27o"), SubResource("Resource_3d2xu"), SubResource("Resource_5gn0u"), SubResource("Resource_x8466"), SubResource("Resource_5aq57"), SubResource("Resource_m1n36"), SubResource("Resource_v1vfm"), SubResource("Resource_m0ugq"), SubResource("Resource_mcj1f"), SubResource("Resource_4bgu2"), SubResource("Resource_0ko5n"), SubResource("Resource_bd0cg"), SubResource("Resource_ad2ln"), SubResource("Resource_pwlx7"), SubResource("Resource_gqs4n"), SubResource("Resource_vt0p3"), SubResource("Resource_u4yd1"), SubResource("Resource_ylxur"), SubResource("Resource_5wr2k"), SubResource("Resource_d73n3"), SubResource("Resource_gp3a2"), SubResource("Resource_4jnuy"), SubResource("Resource_f8p1x"), SubResource("Resource_24d6y"), SubResource("Resource_b67vd"), SubResource("Resource_xr602"), SubResource("Resource_budvm")])
 LowerGrid = NodePath("Container/LG Panel (Container)/LG Margin/Lower Grid")
 UpperLines = NodePath("Container/UL Margin/Upper Lines")
 TileRef = ExtResource("4_yimjp")
